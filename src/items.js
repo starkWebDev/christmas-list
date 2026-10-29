@@ -1,4 +1,5 @@
 // The Christmas list. Edit this file to add, remove, or change items.
+// Items show on the page in the order they appear here.
 //
 // Fields:
 //   name   – what shows as the title
@@ -11,11 +12,25 @@
 
 export const items = [
   {
-    name: 'MORRflate QuikLok Auto Deflators',
+    name: 'Milwaukee PACKOUT 5-Compartment Small Parts Organizer',
     type: 'exact',
-    price: '$50',
-    link: 'https://morrflate.com/products/morrflate-quiklok-auto-deflators',
-    image: 'morrflate.jpg',
+    price: 'About $35',
+    link: 'https://www.homedepot.com/p/Milwaukee-PACKOUT-5-Compartments-Small-Parts-Organizer-48-22-8435/303005752',
+    image: 'packout-5.webp',
+  },
+  {
+    name: 'Husky 3/8 in. Drive Flex Head Extendable Ratchet',
+    type: 'exact',
+    price: '$46.97',
+    link: 'https://www.homedepot.com/p/Husky-3-8-in-Drive-Flex-Head-Extendable-Ratchet-H38FERAT/206038328',
+    image: 'husky-ratchet.jpg',
+  },
+  {
+    name: 'Milwaukee PACKOUT 11-Compartment Small Parts Organizer',
+    type: 'exact',
+    price: 'About $50',
+    link: 'https://www.homedepot.com/p/Milwaukee-PACKOUT-11-Compartment-Impact-Resistant-Portable-Small-Parts-Organizer-48-22-8430/303005741',
+    image: 'packout-11.webp',
   },
   {
     name: 'Owala FreeSip 40 oz Water Bottle',
@@ -34,26 +49,19 @@ export const items = [
     note: 'Greenhouse color is first choice, black is second, but any color is fine.',
   },
   {
+    name: 'MORRflate QuikLok Auto Deflators',
+    type: 'exact',
+    price: '$50',
+    link: 'https://morrflate.com/products/morrflate-quiklok-auto-deflators',
+    image: 'morrflate.jpg',
+  },
+  {
     name: 'Home Depot gift card',
     type: 'idea',
     price: 'Any amount',
     link: null,
     image: null,
     note: 'For tools or a tool chest.',
-  },
-  {
-    name: 'Milwaukee PACKOUT 5-Compartment Small Parts Organizer',
-    type: 'exact',
-    price: 'About $35',
-    link: 'https://www.homedepot.com/p/Milwaukee-PACKOUT-5-Compartments-Small-Parts-Organizer-48-22-8435/303005752',
-    image: 'packout-5.webp',
-  },
-  {
-    name: 'Milwaukee PACKOUT 11-Compartment Small Parts Organizer',
-    type: 'exact',
-    price: 'About $50',
-    link: 'https://www.homedepot.com/p/Milwaukee-PACKOUT-11-Compartment-Impact-Resistant-Portable-Small-Parts-Organizer-48-22-8430/303005741',
-    image: 'packout-11.webp',
   },
   {
     name: 'Rolling mechanic seat',
@@ -76,13 +84,6 @@ export const items = [
     price: '$44.99',
     link: 'https://www.harborfreight.com/g2-38-in-drive-4-34-in-stubby-flex-ratchet-70425.html',
     image: 'icon-stubby-ratchet.jpg',
-  },
-  {
-    name: 'Husky 3/8 in. Drive Flex Head Extendable Ratchet',
-    type: 'exact',
-    price: '$46.97',
-    link: 'https://www.homedepot.com/p/Husky-3-8-in-Drive-Flex-Head-Extendable-Ratchet-H38FERAT/206038328',
-    image: 'husky-ratchet.jpg',
   },
   {
     name: 'Window rain guards for a 100-series Land Cruiser',
