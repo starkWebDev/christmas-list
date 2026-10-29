@@ -50,57 +50,8 @@ body {
 }
 
 .intro {
-  margin: 0 0 16px;
+  margin: 0 0 20px;
   font-size: 1.1rem;
-}
-
-.legend {
-  display: grid;
-  gap: 10px;
-  margin: 0;
-  padding: 16px;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-}
-
-.legend div {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 4px 12px;
-}
-
-.legend dt,
-.legend dd {
-  margin: 0;
-}
-
-/* Filter buttons */
-
-.filters {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  margin: 20px 0;
-}
-
-.filter {
-  min-height: 52px;
-  padding: 8px 6px;
-  font: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--green);
-  background: var(--card);
-  border: 2px solid var(--green);
-  border-radius: 12px;
-  cursor: pointer;
-}
-
-.filter[aria-pressed='true'] {
-  color: #fff;
-  background: var(--green);
 }
 
 /* Item cards */
@@ -234,8 +185,7 @@ body {
   background: var(--green-dark);
 }
 
-.buy:focus-visible,
-.filter:focus-visible {
+.buy:focus-visible {
   outline: 3px solid var(--red);
   outline-offset: 3px;
 }

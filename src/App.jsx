@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { items } from './items.js'
 
 const STORES = {
@@ -13,16 +12,7 @@ function storeName(link) {
   return STORES[host] ?? host
 }
 
-const FILTERS = [
-  { id: 'all', label: 'Everything' },
-  { id: 'exact', label: 'Exact items' },
-  { id: 'idea', label: 'Ideas' },
-]
-
 export default function App() {
-  const [filter, setFilter] = useState('all')
-  const shown = filter === 'all' ? items : items.filter((item) => item.type === filter)
-
   return (
     <>
       <header className="header">
@@ -30,34 +20,10 @@ export default function App() {
         <p className="intro">
           Tap <strong>“View at …”</strong> on any item to open the store page.
         </p>
-        <dl className="legend">
-          <div>
-            <dt><span className="badge badge-exact">Exact item</span></dt>
-            <dd>Please get this specific one.</dd>
-          </div>
-          <div>
-            <dt><span className="badge badge-idea">Idea</span></dt>
-            <dd>Anything similar works.</dd>
-          </div>
-        </dl>
       </header>
 
-      <nav className="filters" aria-label="Show">
-        {FILTERS.map((f) => (
-          <button
-            key={f.id}
-            type="button"
-            className="filter"
-            aria-pressed={filter === f.id}
-            onClick={() => setFilter(f.id)}
-          >
-            {f.label}
-          </button>
-        ))}
-      </nav>
-
       <main className="list">
-        {shown.map((item) => (
+        {items.map((item) => (
           <Item key={item.name} item={item} />
         ))}
       </main>
@@ -82,7 +48,7 @@ function Item({ item }) {
 
       <div className="body">
         <span className={`badge ${isExact ? 'badge-exact' : 'badge-idea'}`}>
-          {isExact ? 'Exact item' : 'Idea'}
+          {isExact ? 'Exact item' : 'Anything similar works'}
         </span>
         <h2 className="name">{item.name}</h2>
         {item.note && <p className="note">{item.note}</p>}
