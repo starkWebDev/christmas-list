@@ -58,9 +58,9 @@ export const items = [
   {
     name: 'Rolling mechanic seat',
     type: 'idea',
-    price: null,
+    price: '$34.99',
     link: 'https://www.harborfreight.com/pneumatic-adjustable-roller-seat-46319.html',
-    image: null,
+    image: 'roller-seat.jpg',
     note: 'Any rolling mechanic seat works. The link is just an example.',
   },
   {
@@ -69,20 +69,21 @@ export const items = [
     price: 'About $24',
     link: 'https://www.amazon.com/dp/B000R8LH3E',
     image: 'flexzilla.jpg',
+    note: 'Amazon itself is out of stock, but other sellers on the page have it.',
   },
   {
     name: 'ICON G2 3/8 in. Drive 4-3/4 in. Stubby Flex Ratchet',
     type: 'exact',
-    price: null,
+    price: '$44.99',
     link: 'https://www.harborfreight.com/g2-38-in-drive-4-34-in-stubby-flex-ratchet-70425.html',
-    image: null,
+    image: 'icon-stubby-ratchet.jpg',
   },
   {
     name: 'Husky 3/8 in. Drive Flex Head Extendable Ratchet',
     type: 'exact',
-    price: 'About $35',
+    price: '$46.97',
     link: 'https://www.homedepot.com/p/Husky-3-8-in-Drive-Flex-Head-Extendable-Ratchet-H38FERAT/206038328',
-    image: null,
+    image: 'husky-ratchet.jpg',
   },
   {
     name: 'Window rain guards for a 100-series Land Cruiser',
@@ -90,7 +91,7 @@ export const items = [
     price: null,
     link: 'https://www.amazon.com/dp/B07KC5LVKK',
     image: 'rain-guards.jpg',
-    note: 'Fits 1998–2007 Toyota Land Cruiser.',
+    note: 'Fits 1998–2007 Toyota Land Cruiser. Currently unavailable on Amazon.',
   },
   {
     name: '3/8 in. drive breaker bar',
