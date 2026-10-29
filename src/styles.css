@@ -105,7 +105,6 @@ body {
 }
 
 .card:has(.placeholder) .photo {
-  height: 150px;
   background: var(--red-soft);
 }
 
