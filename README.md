@@ -1,6 +1,6 @@
 # Christmas List 2026
 
-Live site: https://starkwebdev.github.io/christmas-list/
+Live site: https://christmas.jaredtstark.com/
 
 To change the list, edit `src/items.js` (product photos go in `public/images/`) and push to `main`. GitHub Actions rebuilds and deploys automatically.
 

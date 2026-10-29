@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Served from https://starkwebdev.github.io/christmas-list/
+// Served from https://christmas.jaredtstark.com/
 export default defineConfig({
-  base: '/christmas-list/',
+  base: '/',
   plugins: [react()],
 })
