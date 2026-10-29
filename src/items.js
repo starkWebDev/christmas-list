@@ -66,8 +66,8 @@ export const items = [
     name: 'Home Depot gift card',
     type: 'idea',
     price: 'Any amount',
-    link: null,
-    image: null,
+    link: 'https://www.homedepot.com/gift-cards/p/Home-Depot-Crate-Gift-Card/53L1QLAXWKVF06WJ8DLHBYT6S8/RH6VN7060A1LR3FWD0WJKNVBV8',
+    image: 'home-depot-gift-card.jpg',
     note: 'For tools or a tool chest.',
   },
   {
