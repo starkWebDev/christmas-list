@@ -66,10 +66,9 @@ export const items = [
   {
     name: 'Flexzilla Air Hose, 1/4 in. x 50 ft.',
     type: 'exact',
-    price: 'About $24',
+    price: '$29.00',
     link: 'https://www.amazon.com/dp/B000R8LH3E',
     image: 'flexzilla.jpg',
-    note: 'Amazon itself is out of stock, but other sellers on the page have it.',
   },
   {
     name: 'ICON G2 3/8 in. Drive 4-3/4 in. Stubby Flex Ratchet',
@@ -88,10 +87,10 @@ export const items = [
   {
     name: 'Window rain guards for a 100-series Land Cruiser',
     type: 'exact',
-    price: null,
+    price: '$61.42',
     link: 'https://www.amazon.com/dp/B07KC5LVKK',
     image: 'rain-guards.jpg',
-    note: 'Fits 1998–2007 Toyota Land Cruiser. Currently unavailable on Amazon.',
+    note: 'Fits 1998–2007 Toyota Land Cruiser.',
   },
   {
     name: '3/8 in. drive breaker bar',
