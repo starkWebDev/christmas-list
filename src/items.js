@@ -96,7 +96,7 @@ export const items = [
   {
     name: '3/8 in. drive breaker bar',
     type: 'idea',
-    price: 'About $20–$40',
+    price: '$20',
     link: 'https://www.harborfreight.com/38-in-drive-18-in-ratcheting-breaker-bar-71407.html',
     image: 'breaker-bar-3-8.jpg',
   },
