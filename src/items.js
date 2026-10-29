@@ -103,7 +103,7 @@ export const items = [
   {
     name: '1/2 in. drive breaker bar',
     type: 'idea',
-    price: 'About $25–$50',
+    price: '$40',
     link: 'https://www.harborfreight.com/12-in-drive-25-in-professional-breaker-bar-with-tpr-grip-64821.html',
     image: 'breaker-bar-1-2.jpg',
   },
