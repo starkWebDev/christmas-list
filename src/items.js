@@ -41,6 +41,13 @@ export const items = [
     note: 'Foggy Tide or Neon Moon colors are first choice, but any color is fine.',
   },
   {
+    name: 'ICON G2 3/8 in. Drive 4-3/4 in. Stubby Flex Ratchet',
+    type: 'exact',
+    price: '$44.99',
+    link: 'https://www.harborfreight.com/g2-38-in-drive-4-34-in-stubby-flex-ratchet-70425.html',
+    image: 'icon-stubby-ratchet.jpg',
+  },
+  {
     name: 'Owala FreeSip Sway 64 oz Water Bottle',
     type: 'exact',
     price: '$54.99',
@@ -77,13 +84,6 @@ export const items = [
     price: '$29.00',
     link: 'https://www.amazon.com/dp/B000R8LH3E',
     image: 'flexzilla.jpg',
-  },
-  {
-    name: 'ICON G2 3/8 in. Drive 4-3/4 in. Stubby Flex Ratchet',
-    type: 'exact',
-    price: '$44.99',
-    link: 'https://www.harborfreight.com/g2-38-in-drive-4-34-in-stubby-flex-ratchet-70425.html',
-    image: 'icon-stubby-ratchet.jpg',
   },
   {
     name: 'Window rain guards for a 100-series Land Cruiser',
