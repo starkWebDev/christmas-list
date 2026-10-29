@@ -3,7 +3,7 @@
 //
 // Fields:
 //   name   – what shows as the title
-//   type   – 'exact' (this specific item) or 'idea' (anything similar works)
+//   type   – 'exact' (this specific item) or 'idea' (shows "Anything similar works")
 //   price  – text shown as the price, e.g. '$34.97' or 'About $20–$40'.
 //            Leave as null to show "Check store for price".
 //   link   – product page URL, or null if there's no specific link

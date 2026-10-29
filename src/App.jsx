@@ -34,8 +34,6 @@ export default function App() {
 }
 
 function Item({ item }) {
-  const isExact = item.type === 'exact'
-
   return (
     <article className="card">
       <div className="photo">
@@ -47,9 +45,7 @@ function Item({ item }) {
       </div>
 
       <div className="body">
-        <span className={`badge ${isExact ? 'badge-exact' : 'badge-idea'}`}>
-          {isExact ? 'Exact item' : 'Anything similar works'}
-        </span>
+        {item.type === 'idea' && <span className="badge">Anything similar works</span>}
         <h2 className="name">{item.name}</h2>
         {item.note && <p className="note">{item.note}</p>}
         <p className={item.price ? 'price' : 'price price-unknown'}>

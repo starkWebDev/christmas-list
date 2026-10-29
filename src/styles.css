@@ -126,14 +126,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   border-radius: 999px;
-}
-
-.badge-exact {
-  color: #fff;
-  background: var(--red);
-}
-
-.badge-idea {
   color: var(--gold-text);
   background: var(--gold-soft);
   border: 1px solid #e6cf8a;
