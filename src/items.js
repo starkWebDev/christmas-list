@@ -23,7 +23,7 @@ export const items = [
     price: '$39.99',
     link: 'https://www.amazon.com/dp/B0C59CRT4M',
     image: 'owala-40oz.jpg',
-    note: 'Foggy Tide or Denim colors are first choice, but any color is fine.',
+    note: 'Foggy Tide or Neon Moon colors are first choice, but any color is fine.',
   },
   {
     name: 'Owala FreeSip Sway 64 oz Water Bottle',
@@ -31,7 +31,7 @@ export const items = [
     price: '$54.99',
     link: 'https://www.amazon.com/dp/B0H69B4H7C',
     image: 'owala-64oz.jpg',
-    note: 'Greenhouse color is first choice, but any color is fine.',
+    note: 'Greenhouse color is first choice, black is second, but any color is fine.',
   },
   {
     name: 'Home Depot gift card',
