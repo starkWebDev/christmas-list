@@ -21,9 +21,9 @@ export const items = [
     name: 'Owala FreeSip 40 oz Water Bottle',
     type: 'exact',
     price: '$39.99',
-    link: 'https://www.amazon.com/dp/B0BZYFFLQG',
+    link: 'https://www.amazon.com/dp/B0C59CRT4M',
     image: 'owala-40oz.jpg',
-    note: 'Denim color is first choice, but any color is fine.',
+    note: 'Foggy Tide or Denim colors are first choice, but any color is fine.',
   },
   {
     name: 'Owala FreeSip Sway 64 oz Water Bottle',
