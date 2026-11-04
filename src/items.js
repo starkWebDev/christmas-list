@@ -107,4 +107,25 @@ export const items = [
     link: 'https://www.harborfreight.com/12-in-drive-25-in-professional-breaker-bar-with-tpr-grip-64821.html',
     image: 'breaker-bar-1-2.jpg',
   },
+  {
+    name: 'Duck Camp Blank Grandpa Hat – Blaze',
+    type: 'exact',
+    price: '$28',
+    link: 'https://duckcamp.com/products/blank-grandpa-hat-blaze?variant=46382678212739',
+    image: 'grandpa-hat-blaze.jpg',
+  },
+  {
+    name: 'Duck Camp Blank Grandpa Hat – Wetland',
+    type: 'exact',
+    price: '$28',
+    link: 'https://duckcamp.com/products/blank-grandpa-hat-wetland?variant=46382679130243',
+    image: 'grandpa-hat-wetland.jpg',
+  },
+  {
+    name: 'Duck Camp Blank Grandpa Hat – Woodland',
+    type: 'exact',
+    price: '$28',
+    link: 'https://duckcamp.com/products/blank-grandpa-hat-woodland?variant=46382678081667',
+    image: 'grandpa-hat-woodland.jpg',
+  },
 ]
